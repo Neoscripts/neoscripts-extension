@@ -14,7 +14,7 @@ const shwa = {
       ]
     },
     {
-      names: ["Arial", "Helvetica"],
+      names: ["Arial"],
       fonts: [
         { weight: "normal", style: "normal", file: "DushanShwaAlphabet.otf" },
         { weight: "bold", style: "normal", file: "DushanShwaAlphabetB.otf" }
@@ -36,11 +36,11 @@ const shwa = {
 // Keys cannot contain special RegExp characters
 const generic_font_dict = {
   "serif":      ["Times New Roman", "Georgia", "DejaVu Serif"],
-  "sans-serif": ["Helvetica", "Arial", "Ubuntu"],
+  "sans-serif": ["Helvetica", "Arial"],
   "monospace":  ["Courier New", "Courier", "Ubuntu Monospace"],
   "cursive":    ["Apple Chancery", "URW Chancery L"],
   "fantasy":    ["Luminari", "Trattatello", "Papyrus"],
-  "system-ui":  ["Helvetica", "Arial", "Ubuntu"]
+  "system-ui":  ["Helvetica", "Arial"]
 };
 
 window.browser = (function () {

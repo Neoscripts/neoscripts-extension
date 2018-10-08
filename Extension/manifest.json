@@ -19,6 +19,8 @@
             ],
             "run_at": "document_start",
             "js": [
+                "dict/en/cmu-shwa.js",
+                "dict/en/cmu-shwa-hets.js",
                 "transcribe.js",
                 "extension.js"
             ],

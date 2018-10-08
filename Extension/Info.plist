@@ -32,6 +32,14 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>dict/en/cmu-shwa.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>dict/en/cmu-shwa-hets.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>transcribe.js</string>
 			</dict>
 			<dict>
