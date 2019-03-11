@@ -1,32 +1,32 @@
 {
-    "name": "Neoscripts",
-    "description": "Browse the web in your favorite alphabet or script.",
-    "version": "0.1",
-    "manifest_version": 2,
-    "permissions": [
-        "<all_urls>"
-    ],
-    "web_accessible_resources": [
-        "alpha/*",
-        "dict/*",
-        "font/*",
-        "img/*"
-    ],
-    "content_scripts": [
-        {
-            "matches": [
-                "<all_urls>"
-            ],
-            "run_at": "document_start",
-            "js": [
-                "dict/en/cmu-shwa.js",
-                "dict/en/cmu-shwa-hets.js",
-                "transcribe.js",
-                "extension.js"
-            ],
-            "css": [
-                "transparent.css"
-            ]
-        }
-    ]
+   "name": "Neoscripts",
+   "description": "Browse the web in your favorite alphabet or script.",
+   "version": "0.0.1",
+   "manifest_version": 2,
+   "permissions": [
+      "<all_urls>"
+   ],
+   "web_accessible_resources": [
+      "alpha/*",
+      "dict/*",
+      "font/*",
+      "img/*"
+   ],
+   "content_scripts": [
+      {
+         "matches": [
+            "<all_urls>"
+         ],
+         "run_at": "document_start",
+         "js": [
+            "dict/en/us/cmu-shwa.js",
+            "dict/en/us/cmu-shwa-hets.js",
+            "transcribe.js",
+            "extension.js"
+         ],
+         "css": [
+            "transparent.css"
+         ]
+      }
+   ]
 }

@@ -1,7 +1,7 @@
 function transcribe(text) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => resolve(cyrusTranscribe(false, text)), 0);
-  });
+   return new Promise((resolve, reject) => {
+      setTimeout(() => resolve(cyrusTranscribe(false, text)), 0);
+   });
 }
 
 var cyrusAsk = "false";
